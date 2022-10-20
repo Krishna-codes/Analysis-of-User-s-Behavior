@@ -2,7 +2,8 @@
 SQLyog Community Edition- MySQL GUI v7.15 
 MySQL - 5.5.29 : Database - userbehaviour
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -208,6 +209,7 @@ insert  into `user`(`id`,`username`,`password`,`email`,`dob`,`gender`,`address`,
 /*Table structure for table `userintention` */
 
 DROP TABLE IF EXISTS `userintention`;
+
 
 CREATE TABLE `userintention` (
   `username` varchar(100) DEFAULT NULL,
